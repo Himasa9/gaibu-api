@@ -25,7 +25,7 @@ public class Controller {
         final String endpoint = "https://api.open-meteo.com/v1/forecast";
 
         final String url = endpoint + "?latitude=" + latitude + "&" + "longitude=" + longitude + "&"
-                           + "hourly=" + hourly;
+                           + "hourly=" + hourly + "&" + "timezone=" + timezone;
 
         ResponseEntity<String> response = rest.getForEntity(url, String.class);
 
