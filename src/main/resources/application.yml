@@ -1,0 +1,6 @@
+twitter:
+  auth:
+    api-key: get from developers.twitter
+    api-key-secret: get from developers.twitter
+    access-token: get from developers.twitter
+    access-token-secret: get from developers.twitter
